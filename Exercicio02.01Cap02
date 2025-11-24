@@ -1,1 +1,84 @@
+<!-
+FizzBuzz
+Escreva um programa que console.logimprima todos os números de 1 a 100, com duas exceções. Para números divisíveis por 3, imprima "Fizz"em vez do número, e para números divisíveis por 5 (e não por 3), imprima "Buzz"em vez do número.
+
+Quando isso estiver funcionando, modifique seu programa para imprimir "FizzBuzz"números que são divisíveis por 3 e 5 (e ainda imprimir "Fizz"ou "Buzz"para números divisíveis por apenas um deles).
+
+(Na verdade, essa é uma questão de entrevista que supostamente elimina uma porcentagem significativa de candidatos a programadores. Então, se você a resolvesse, seu valor no mercado de trabalho aumentaria.)
+->
+
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <title>Exercicio 02</title>
+</head>
+<body>
+  <h1>
+    Exercicio 02
+  </h1>
+  
+  <script>
+  
+/*Quarta parte*/
+let num = 1;
+
+while(num < 101){
+  if(num % 3 == 0 && num % 5 == 0){
+   console.log("FizzBuzz");
+  }else if(num % 3 == 0){
+    console.log("Fizz");
+  }else if(num % 5 == 0){
+    console.log("Buzz");
+  }else{
+    console.log(num);
+  }
+
+  num++;
+}
+
+/*
+Terceira parte
+let num = 1;
+
+while(num < 101){
+  if(num % 3 == 0){
+    console.log("Fizz");
+  } else if(num % 5 == 0) {
+    console.log("Buzz");
+  }else{
+    console.log(num)
+  }
+
+  num++;
+}
+
+Segunda parte
+let num = 1;
+
+while(num < 101){
+  if(num % 3 == 0){
+  console.log("Fizz");
+  }else{
+  console.log(num);
+  }
+
+  num++;
+}
+
+Primeira parte
+let num = 1;
+
+while(num < 101){
+  console.log(num);
+  num++;
+}
+*/
+
+  </script>
+  
+</body>
+</html>
 
