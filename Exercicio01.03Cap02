@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <title>Exercicio 01.03</title>
+</head>
+<body>
+  <h1>
+    Exercicio 01.03
+  </h1>
+  
+  <script>
+  
+  let casa = "#";
+  
+  for(linha = 1; linha <= 7; linha++){
+   //   document.write("<br>");
+    
+    for(coluna = 1; coluna <= linha; coluna++){
+        document.write(casa);
+    }
+    document.write("<br>");
+    
+  }
+
+  </script>
+  
+  
+</body>
+</html>
 
