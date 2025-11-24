@@ -1,1 +1,58 @@
+<!-
+autor = Ricardo
+data = 20.10.2025
+
+Exercicio 01
+Dando um laço em um triângulo
+Escreva um loop que faça sete chamadas para console.loggerar o seguinte triângulo:
+
+#
+##
+###
+####
+#####
+######
+####### ->
+
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <title>Exercicio 01.02</title>
+</head>
+<body>
+  <h1>
+    Exercicio 01.02
+  </h1>
+
+    <script>
+    
+    let linha = 1;
+    let cont = 1;
+    let casa = "#";
+    
+    while(linha <= 7){
+        let impressao = ""; // variavel para criar linha de impressao
+        let coluna = 1;
+      
+        while(coluna <= cont){
+          impressao += casa;
+          coluna++;
+        
+          }
+          if(coluna > 2){
+          document.write("<br>" + impressao);
+          }else{
+            document.write(impressao)
+          }
+          linha++;
+          cont++;
+    }
+    
+    </script>
+
+</body>
+</html>
 
