@@ -1,1 +1,54 @@
+/*
+autor: Ricardo
+Ricardo
+Recursão
+Vimos que podemos usar %o operador de resto (ou operador de resto) para verificar se um número é par ou ímpar, % 2verificando se ele é divisível por dois. Aqui está outra maneira de definir se um número inteiro positivo é par ou ímpar:
+
+Zero é par.
+
+Um deles é estranho.
+
+Para qualquer outro número N , sua paridade é a mesma que N - 2.
+
+Defina uma função recursiva isEvenque corresponda a esta descrição. A função deve aceitar um único parâmetro (um número inteiro positivo) e retornar um valor booleano.
+
+Faça o teste com 50 e 75. Veja como se comporta com -1. Por quê? Você consegue pensar em uma maneira de corrigir isso?
+*/
+
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <title>Exercicio 02.03</title>
+</head>
+<body>
+  <h1>
+    Exercicio 02.01
+  </h1>
+  
+  <script>
+
+  function isEven(numero){
+
+     if(numero === 0){
+         return true;
+     }else if(numero === 1){
+         return false;
+     }else if(numero >= 2){
+         return isEven(numero - 2);
+     }else{
+         return isEven(numero + 2);
+ 
+  }
+  }
+
+      let resultado = isEven(50);
+      document.write(resultado);
+  
+  </script>
+
+</body>
+</html>
 
