@@ -1,0 +1,42 @@
+<!-
+auto: Ricardo
+Escreva um programa que utilize console.loga função `print` para imprimir todos os números de 1 a 100, com duas exceções. Para números divisíveis por 3, imprima `1` "Fizz"em vez do número, e para números divisíveis por 5 (e não por 3), imprima `5` "Buzz"em vez do número.
+
+Quando isso estiver funcionando, modifique seu programa para imprimir "FizzBuzz"números que são divisíveis por 3 e 5 (e continue imprimindo "Fizz"ou "Buzz"para números divisíveis apenas por um deles).
+
+(Esta é, na verdade, uma pergunta de entrevista que, segundo alguns, elimina uma porcentagem significativa de candidatos a programador. Portanto, se você a resolveu, seu valor no mercado de trabalho acaba de aumentar.)
+->
+
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <title>Exercicio 02.02</title>
+</head>
+<body>
+  <h1>
+    Exercicio 02.02
+  </h1>
+  
+  <script>
+  
+  for(let num = 1; num <= 100; num++){
+      if(num % 3 == 0 && num % 5 == 0){
+          document.write("FizzBuzz");
+      }else if(num % 3 == 0){
+          document.write("Fizz");
+      }else if(num % 5 == 0){
+          document.write("Buzz");
+      }else{
+          document.write(num);
+      }
+      document.write("<br>");
+  }
+
+  </script>
+
+</body>
+</html>
+
