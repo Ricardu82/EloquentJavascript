@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <title>Funcao Soma</title>
+</head>
+<body>
+  <h1>
+    Funcao Soma
+  </h1>
+  
+  <script>
+  
+  function soma(a, b){
+      let resultado = a + b;
+    
+      return resultado;
+  }    
+  let calculo = soma(2, 2);
+  document.write("O valor da soma é: " + calculo);
+  
+  </script>
+  
+  
+  
+</body>
+</html>
 
