@@ -1,9 +1,9 @@
-/*
+<!-
 autor: Ricardo
-
+data: 24.10.2025
 Mínimo
 O capítulo anterior apresentou a função padrão Math.minque retorna o menor argumento. Agora podemos escrever uma função semelhante. Defina a função minque recebe dois argumentos e retorna o menor deles
-*/
+->
 
 <!DOCTYPE html>
 
