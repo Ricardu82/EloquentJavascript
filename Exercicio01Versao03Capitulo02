@@ -1,3 +1,17 @@
+/*
+auto: Ricardo
+
+Escreva um loop que faça sete chamadas à função para console.loggerar o seguinte triângulo:
+
+#
+##
+###
+####
+#####
+######
+#######
+Pode ser útil saber que você pode descobrir o comprimento de uma string escrevendo- .lengtha após ela.
+*/
 <!DOCTYPE html>
 
 <html>
