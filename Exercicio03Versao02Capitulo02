@@ -1,6 +1,6 @@
-/*
+<!-
 autor: Ricardo
-
+data: 24.10.2025
 Tabuleiro de xadrez
 Escreva um programa que crie uma string representando uma grade 8x8, usando caracteres de nova linha para separar as linhas. Em cada posição da grade, deve haver um espaço ou um caractere "#". Os caracteres devem formar um tabuleiro de xadrez.
 
@@ -16,7 +16,7 @@ Ao passar essa string, o resultado console.logdeverá ser algo como:
 # # # #
 Quando você tiver um programa que gera esse padrão, defina uma associação size = 8e modifique o programa para que ele funcione para qualquer valor sizede `x`, produzindo uma grade com a largura e altura especificadas.
 
-*/
+->
 
 
 <!DOCTYPE html>
@@ -51,17 +51,7 @@ Quando você tiver um programa que gera esse padrão, defina uma associação si
               }
           } 
         }
-    
- /*       let casa = "#";
         
-        for(let linha = 1; linha <= 8; linha++){
-            document.write("<br>");
-          
-          for(let coluna = 1; coluna <= 8; coluna++){
-              document.write(casa);
-          } 
-        }*/
-    
     </script>
   </h1>
 </body>
