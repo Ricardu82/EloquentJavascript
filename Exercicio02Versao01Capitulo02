@@ -1,4 +1,6 @@
 <!-
+autor: Ricardo
+data: 22.10.2025
 FizzBuzz
 Escreva um programa que console.logimprima todos os números de 1 a 100, com duas exceções. Para números divisíveis por 3, imprima "Fizz"em vez do número, e para números divisíveis por 5 (e não por 3), imprima "Buzz"em vez do número.
 
