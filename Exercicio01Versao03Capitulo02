@@ -1,5 +1,6 @@
-/*
+<!-
 auto: Ricardo
+data: 24.10.2025
 
 Escreva um loop que faça sete chamadas à função para console.loggerar o seguinte triângulo:
 
@@ -11,7 +12,8 @@ Escreva um loop que faça sete chamadas à função para console.loggerar o segu
 ######
 #######
 Pode ser útil saber que você pode descobrir o comprimento de uma string escrevendo- .lengtha após ela.
-*/
+->
+
 <!DOCTYPE html>
 
 <html>
