@@ -1,1 +1,41 @@
+/*
+autor: Ricardo
+
+Mínimo
+O capítulo anterior apresentou a função padrão Math.minque retorna o menor argumento. Agora podemos escrever uma função semelhante. Defina a função minque recebe dois argumentos e retorna o menor deles
+*/
+
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <title>Exercicio 01.01</title>
+</head>
+<body>
+  <h1>
+    Exercicio 01.01
+  </h1>
+  
+  <script>
+
+  function menor(num1, num2){
+      let resultado = 0;
+      if(num1 < num2){
+         resultado = num1;
+      }else{
+         resultado = num2;
+
+      }
+      
+      return resultado;
+  }
+      let resposta = menor(2, 3);
+      document.write("O menor é: " + resposta);        
+
+  </script>
+  
+</body>
+</html>
 
