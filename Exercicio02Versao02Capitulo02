@@ -1,5 +1,6 @@
 <!-
 auto: Ricardo
+Data: 24.10.2025
 Escreva um programa que utilize console.loga função `print` para imprimir todos os números de 1 a 100, com duas exceções. Para números divisíveis por 3, imprima `1` "Fizz"em vez do número, e para números divisíveis por 5 (e não por 3), imprima `5` "Buzz"em vez do número.
 
 Quando isso estiver funcionando, modifique seu programa para imprimir "FizzBuzz"números que são divisíveis por 3 e 5 (e continue imprimindo "Fizz"ou "Buzz"para números divisíveis apenas por um deles).
