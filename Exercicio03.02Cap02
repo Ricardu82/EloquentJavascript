@@ -1,1 +1,69 @@
+/*
+autor: Ricardo
+
+Tabuleiro de xadrez
+Escreva um programa que crie uma string representando uma grade 8x8, usando caracteres de nova linha para separar as linhas. Em cada posição da grade, deve haver um espaço ou um caractere "#". Os caracteres devem formar um tabuleiro de xadrez.
+
+Ao passar essa string, o resultado console.logdeverá ser algo como:
+
+# # # #
+# # # #
+ # # # #
+# # # #
+ # # # #
+# # # #
+ # # # #
+# # # #
+Quando você tiver um programa que gera esse padrão, defina uma associação size = 8e modifique o programa para que ele funcione para qualquer valor sizede `x`, produzindo uma grade com a largura e altura especificadas.
+
+*/
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <title>Exercicio 03 - While</title>
+</head>
+<body>
+  <h1>
+    Exercicio 03 - While
+  <h1>
+    
+    <script>
+    
+        let casa = "#";
+        
+        for(let linha = 1; linha <= 8; linha++){
+            if(linha > 1){
+                document.write("<br>");
+            }
+          
+          for(let coluna = 1; coluna <= 8; coluna++){
+              result = linha + coluna;
+              if(result % 2 == 0){
+
+                  document.write(casa);
+              }else{
+                document.write("&nbsp");
+              }
+          } 
+        }
+    
+ /*       let casa = "#";
+        
+        for(let linha = 1; linha <= 8; linha++){
+            document.write("<br>");
+          
+          for(let coluna = 1; coluna <= 8; coluna++){
+              document.write(casa);
+          } 
+        }*/
+    
+    </script>
+  </h1>
+</body>
+</html>
 
