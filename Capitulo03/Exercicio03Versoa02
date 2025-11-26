@@ -1,1 +1,51 @@
 
+<!-
+autor: Ricardo
+data: 26.11.2025
+descricao: Você pode obter o N -ésimo caractere, ou letra, de uma string escrevendo `n` [N]após a string (por exemplo, `n` string[2]). O valor resultante será uma string contendo apenas um caractere (por exemplo, ` "b"n`). O primeiro caractere ocupa a posição 0, o que faz com que o último seja encontrado na posição `n` . Em outras palavras, uma string de dois caracteres tem comprimento 2, e seus caracteres ocupam as posições 0 e 1.string.length - 1
+
+Escreva uma função chamada `b` countBsque receba uma string como único argumento e retorne um número que indique quantas letras maiúsculas "B" existem na string.
+
+Em seguida, escreva uma função chamada `count` countCharque se comporte como `count` countBs, exceto que ela recebe um segundo argumento que indica o caractere a ser contado (em vez de contar apenas caracteres B maiúsculos). Reescreva a função countBspara usar essa nova função.
+
+-></!->
+
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <title>Exercicio 03.02.03</title>
+</head>
+<body>
+  <h1>
+    Exercicio 03.02.03
+  </h1>
+
+  <script>
+  
+  function contChar(palavra, letra) {
+  let resultado = 0;
+  let i = 0;
+  
+  while(i < palavra.length) {
+      if(palavra[i] === letra) {
+          resultado ++;
+
+      }
+    i++;
+
+  }
+    
+    return resultado;
+  }
+    
+    let calculo = contChar("ROBO", "B")
+    
+    document.write(calculo);
+ 
+  </script>
+
+</body>
+</html>
